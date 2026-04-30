@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Aimane Couissi - https://aimanecouissi.com
+ * Copyright © Aimane Couissi 2026–present. All rights reserved.
+ * Licensed under the MIT License. See LICENSE for details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="AimaneCouissi\MailTransportBuilderAttachment\Api\Data\AttachmentInterface"
+                type="AimaneCouissi\MailTransportBuilderAttachment\Model\Attachment"/>
+    <preference for="AimaneCouissi\MailTransportBuilderAttachment\Api\AttachmentTransportBuilderInterface"
+                type="AimaneCouissi\MailTransportBuilderAttachment\Model\AttachmentTransportBuilder"/>
+</config>

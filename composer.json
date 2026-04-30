@@ -1,0 +1,41 @@
+{
+    "name": "aimanecouissi/module-mail-transport-builder-attachment",
+    "version": "1.0.0",
+    "description": "Add attachments to Magento mail transport",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "mail",
+        "transport-builder",
+        "attachment"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-mail-transport-builder-attachment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "ext-fileinfo": "*",
+        "magento/framework": "^103.0.8"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-mail-transport-builder-attachment/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-mail-transport-builder-attachment"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\MailTransportBuilderAttachment\\": ""
+        }
+    }
+}
